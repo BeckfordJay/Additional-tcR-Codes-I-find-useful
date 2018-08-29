@@ -1,0 +1,5 @@
+write.csv(PatientClones, "PostTreatment.csv")
+write.csv(VJBefore, 'VJPairBeforePatient9.csv')
+write.csv(VJAfter, 'VJPairAfter.csv')
+write.csv(SharedCDR3, 'SharedCDR3Group.csv')
+write.csv((as.data.frame(immj.vs.all[1:10, 1:7])), 'J_Usage_Group_After.csv')
